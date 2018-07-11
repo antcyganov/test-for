@@ -1,7 +1,6 @@
 package ru.jenkl;
 
 import org.junit.Assert;
-import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
@@ -33,7 +32,6 @@ public class StringParameterizedTest {
     }
 
     @Test
-    @Ignore
     public void stringParameterizedTest() {
         Assert.assertTrue(format("%s is even number", i), valueOf(i) % 2 != 0);
     }

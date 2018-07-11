@@ -1,7 +1,6 @@
 package ru.jenkl;
 
 import org.junit.Assert;
-import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
@@ -32,7 +31,6 @@ public class SimpleParameterizedTest {
     }
 
     @Test
-    @Ignore
     public void parameterizedTest() {
         Assert.assertTrue(format("%d not even number", i), i % 2 == 0);
     }
