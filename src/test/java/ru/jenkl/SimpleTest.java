@@ -1,6 +1,7 @@
 package ru.jenkl;
 
 import org.junit.Assert;
+import org.junit.Ignore;
 import org.junit.Test;
 
 /**
@@ -19,11 +20,13 @@ public class SimpleTest {
     }
 
     @Test
+    @Ignore
     public void shouldBeFailed() {
         Assert.fail();
     }
 
     @Test
+    @Ignore
     public void shouldBeBroken() {
         throw new RuntimeException();
     }
