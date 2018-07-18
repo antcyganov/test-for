@@ -27,4 +27,14 @@ public class SimpleTest {
     public void shouldBeBroken() {
         throw new RuntimeException("Broken test");
     }
+
+    @Test
+    public void testWithLongErrorMessage() {
+        Assert.fail("Very long message!Very long message!Very long message!Very long message!Very long message!" +
+            "Very long message!Very long message!Very long message!Very long message!Very long message!" +
+            "Very long message!Very long message!Very long message!Very long message!Very long message!" +
+            "Very long message!Very long message!Very long message!Very long message!Very long message!" +
+            "Very long message!Very long message!Very long message!Very long message!Very long message!" +
+            "Very long message!Very long message!Very long message!Very long message!Very long message!");
+    }
 }
