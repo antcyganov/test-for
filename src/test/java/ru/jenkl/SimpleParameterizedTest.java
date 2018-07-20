@@ -1,6 +1,7 @@
 package ru.jenkl;
 
 import org.junit.Assert;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
@@ -14,6 +15,7 @@ import static java.lang.String.format;
  * @author Anton Tsyganov (jenkl)
  * @date 11.07.18
  */
+@Ignore
 @RunWith(Parameterized.class)
 public class SimpleParameterizedTest {
 
