@@ -1,7 +1,6 @@
-package ru.jenkl;
+package ru.jenkl.random;
 
 import org.junit.Assert;
-import org.junit.Ignore;
 import org.junit.Test;
 
 import java.util.Random;
@@ -10,7 +9,6 @@ import java.util.Random;
  * @author Anton Tsyganov (jenkl)
  * @date 17.07.18
  */
-@Ignore
 public class RandomFailedTest {
 
     @Test
