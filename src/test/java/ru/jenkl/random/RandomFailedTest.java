@@ -1,7 +1,6 @@
 package ru.jenkl.random;
 
 import com.google.code.tempusfugit.concurrency.IntermittentTestRunner;
-import com.google.code.tempusfugit.concurrency.annotations.Intermittent;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -12,7 +11,6 @@ import java.util.Random;
  * @author Anton Tsyganov (jenkl)
  * @date 17.07.18
  */
-@Intermittent
 @RunWith(IntermittentTestRunner.class)
 public class RandomFailedTest {
 
