@@ -3,6 +3,7 @@ package ru.jenkl;
 import com.google.code.tempusfugit.concurrency.IntermittentTestRunner;
 import com.google.code.tempusfugit.concurrency.annotations.Intermittent;
 import org.junit.Assert;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
@@ -11,6 +12,7 @@ import org.junit.runner.RunWith;
  * @date 04.07.18
  */
 @RunWith(IntermittentTestRunner.class)
+@Ignore
 public class SimpleTest {
     @Test
     public void shouldFinishedSuccess() {
